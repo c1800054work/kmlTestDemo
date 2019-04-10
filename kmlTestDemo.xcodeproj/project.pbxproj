@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4444B1C181B53A84AD1C3209 /* Pods_kmlTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5FA37AD058870202048245 /* Pods_kmlTestDemo.framework */; };
 		BF0A0359225DCFED00C44B66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A0358225DCFED00C44B66 /* AppDelegate.swift */; };
 		BF0A035B225DCFED00C44B66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A035A225DCFED00C44B66 /* ViewController.swift */; };
 		BF0A035E225DCFED00C44B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0A035C225DCFED00C44B66 /* Main.storyboard */; };
 		BF0A0360225DCFEF00C44B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0A035F225DCFEF00C44B66 /* Assets.xcassets */; };
 		BF0A0363225DCFEF00C44B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0A0361225DCFEF00C44B66 /* LaunchScreen.storyboard */; };
+		BF0A036B225DD45500C44B66 /* Kml.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0A036A225DD45500C44B66 /* Kml.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29DE2B2A68A97BC448F9F9E0 /* Pods-kmlTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmlTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kmlTestDemo/Pods-kmlTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F5FA37AD058870202048245 /* Pods_kmlTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kmlTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803C7197FB59867B802F7441 /* Pods-kmlTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kmlTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-kmlTestDemo/Pods-kmlTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BF0A0355225DCFED00C44B66 /* kmlTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kmlTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0A0358225DCFED00C44B66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF0A035A225DCFED00C44B66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		BF0A035F225DCFEF00C44B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0A0362225DCFEF00C44B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0A0364225DCFEF00C44B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0A036A225DD45500C44B66 /* Kml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kml.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4444B1C181B53A84AD1C3209 /* Pods_kmlTestDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CCC1826713F3627E5E47649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F5FA37AD058870202048245 /* Pods_kmlTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA43E28F3D3B68CD2DA808B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29DE2B2A68A97BC448F9F9E0 /* Pods-kmlTestDemo.debug.xcconfig */,
+				803C7197FB59867B802F7441 /* Pods-kmlTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BF0A034C225DCFED00C44B66 = {
 			isa = PBXGroup;
 			children = (
 				BF0A0357225DCFED00C44B66 /* kmlTestDemo */,
 				BF0A0356225DCFED00C44B66 /* Products */,
+				8FA43E28F3D3B68CD2DA808B /* Pods */,
+				4CCC1826713F3627E5E47649 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 			children = (
 				BF0A0358225DCFED00C44B66 /* AppDelegate.swift */,
 				BF0A035A225DCFED00C44B66 /* ViewController.swift */,
+				BF0A036A225DD45500C44B66 /* Kml.swift */,
 				BF0A035C225DCFED00C44B66 /* Main.storyboard */,
 				BF0A035F225DCFEF00C44B66 /* Assets.xcassets */,
 				BF0A0361225DCFEF00C44B66 /* LaunchScreen.storyboard */,
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF0A0367225DCFEF00C44B66 /* Build configuration list for PBXNativeTarget "kmlTestDemo" */;
 			buildPhases = (
+				BE9C8AEAA5EDB99F3FD7A21C /* [CP] Check Pods Manifest.lock */,
 				BF0A0351225DCFED00C44B66 /* Sources */,
 				BF0A0352225DCFED00C44B66 /* Frameworks */,
 				BF0A0353225DCFED00C44B66 /* Resources */,
+				2E94D31137AA994E8B986F26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +159,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E94D31137AA994E8B986F26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kmlTestDemo/Pods-kmlTestDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kmlTestDemo/Pods-kmlTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C8AEAA5EDB99F3FD7A21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kmlTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF0A0351225DCFED00C44B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +205,7 @@
 			files = (
 				BF0A035B225DCFED00C44B66 /* ViewController.swift in Sources */,
 				BF0A0359225DCFED00C44B66 /* AppDelegate.swift in Sources */,
+				BF0A036B225DD45500C44B66 /* Kml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +349,13 @@
 		};
 		BF0A0368225DCFEF00C44B66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DE2B2A68A97BC448F9F9E0 /* Pods-kmlTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D88S2V4T8S;
 				INFOPLIST_FILE = kmlTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +369,13 @@
 		};
 		BF0A0369225DCFEF00C44B66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803C7197FB59867B802F7441 /* Pods-kmlTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D88S2V4T8S;
 				INFOPLIST_FILE = kmlTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
